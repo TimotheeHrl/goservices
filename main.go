@@ -1,14 +1,10 @@
 package main
 
 import (
-	"fmt"
-	"os"
-    "github.com/TimotheeHrl/goservices/user"
+	"github.com/TimotheeHrl/goservices/user/userbuilder"
 )
 
 func main() {
 
-	arg := os.Args[1]
-	fmt.Println(arg)
-	GetUser(arg)
+	userbuilder.GetUser()
 }
