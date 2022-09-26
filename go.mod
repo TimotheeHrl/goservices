@@ -1,4 +1,4 @@
-module github.com/TimotheeHrl/goservices/user
+module github.com/TimotheeHrl/goservices
 
 go 1.17
 

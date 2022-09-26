@@ -11,7 +11,7 @@ import (
 
 // hello copilot , are you here ?
 
-func GetUser() {
+func GetUser() User {
 	client := &http.Client{
 		Timeout: time.Second * 10,
 	}
@@ -30,4 +30,5 @@ func GetUser() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	return resCompain
 }
